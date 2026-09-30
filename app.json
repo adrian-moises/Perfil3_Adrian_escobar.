@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Evaluacion Practica",
+    "owner": "adrian.moises",
+    "slug": "evaluacion-practica",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.estudiante.evaluacionpractica",
+      "adaptiveIcon": {
+        "backgroundColor": "#9b4dca",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "backgroundColor": "#9b4dca",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "594cade4-32fe-48fc-b63d-98d79446db89"
+      }
+    }
+  }
+}
